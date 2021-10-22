@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(157,184,184);
+    background: linear-gradient(45deg, rgba(157,184,184,1) 20%, rgba(158,180,179,1) 38%, rgba(146,161,158,1) 69%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(53, 53, 53);
+    background: rgb(144,170,170);
+    background: linear-gradient(201deg, rgba(144,170,170,1) 0%, rgba(135,156,154,1) 44%, rgba(124,138,135,1) 74%);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#usuario{
+    width: 20vw;
+    height: 3vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(144, 170, 170, 0);
+    border-color: black;
+}
+
+#usuario:focus{
+    outline: 0;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.usuario{
+    margin: 25px;
+}
+
+#senha{
+    width: 20vw;
+    height: 3vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(144, 170, 170, 0);
+    border-color:black;
+}
+
+#senha:focus{
+    outline: 0;
+}
+
+.senha{
+    margin: 15px;
+    padding: 0.5rem;
+}
+
+#botao{
+    width: 10vw;
+    height: 4vh;
+    margin: 8px;
+    box-shadow: 2px 2px 2px rgb(46, 46, 46);
+    background: rgb(144,170,170);
+    background: linear-gradient(201deg, rgba(144,170,170,1) 20%, rgba(142,161,160,1) 38%, rgba(124,138,135,1) 75%);
+}
+
+p{
+    padding: 0.9rem;
+}
